@@ -38,3 +38,7 @@ We use the following Python libraries:
 The methods have a simple implememntation, so they will most probably work also with other versions of the libraries. 
 
 We also provide an HTML version of the notebook.
+
+> 📚 **Citation:**  
+> For more infor, please refer to our paper and cite it if you find it useful :)
+> Filus, K., & Domaska, J. (2025). *How CNNs and ViTs perceive similarities between categories*, ECML PKDD (Accepted - we will update the citation).  
