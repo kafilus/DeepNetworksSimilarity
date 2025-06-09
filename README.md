@@ -25,6 +25,10 @@ other researchers. Note, that we use only some examplary models (that are compat
 other freely available ones from Keras and PyTorch) just to show the operation of the
 notebooks and to make the use of our materials easy for other researchers.
 
+The method to measure network perceived similarities uses templates of classes extracted from the network's weights. In the figure below, we provide a drawing showing how we obtain the class similarities from the network perspective based on these weights. As mentioned in the main body of the paper, each neuron of the classification layer corresponds to one of the classes. Weights connecting this neuron to the neurons in the penultimate layer can be treated as a class template (vector representation) of class *c*.
+
+![Measuring similarity](Weights1.png)
+
 We use the following Python libraries:
 
 * matplotlib (version 3.6.2)
@@ -35,7 +39,7 @@ We use the following Python libraries:
 * sklearn (version 1.1.3)
 * scipy (version 1.9.3)
 
-The methods have a simple implememntation, so they will most probably work also with other versions of the libraries. 
+The methods have a simple implementation, so they will most probably work also with other versions of the libraries. 
 
 We also provide an HTML version of the notebook.
 
